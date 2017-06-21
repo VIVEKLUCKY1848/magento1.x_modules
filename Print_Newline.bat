@@ -1,0 +1,11 @@
+@ECHO OFF
+SET NL=^^%NLM%%NLM%^%NLM%%NLM%
+ECHO "SOMETHING HERE"
+ECHO %NL%
+ECHO "SOMETHING HERE 2"
+(SET \n=^
+%=DONT REMOVE THIS=%
+)
+setlocal EnableDelayedExpansion
+ECHO "Hello!\n!World"
+PAUSE
